@@ -1,6 +1,6 @@
 ################
-# Martín René - @martinvilu
-# UNRN Andina - Introducción a la Ingenieria en Computación
+# Diego MINGORANCE - @diegoasdev
+# UNRN Andina - Introduccion a la Ingenieria en Computacion
 ################
 
 
@@ -8,7 +8,7 @@
 
 
 def prueba():
-    """Toda la interacción con el usuario va acá"""
+    """Toda la interaccion con el usuario va aca"""
     pass
 
 if __name__ == "__main__":
