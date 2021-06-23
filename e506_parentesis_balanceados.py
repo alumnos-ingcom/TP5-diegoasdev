@@ -27,12 +27,14 @@ def parentesis_balanceados(texto, parentesis):
         return True
     return False
 
+
 def auxiliar_de_prueba(texto, parentesis):
     if parentesis_balanceados(texto, parentesis):
         es_o_no_es = f"\tTiene las/los {parentesis} balanceados"
     else:
         es_o_no_es = f"\tNo tiene las/los {parentesis} balanceados"
     return es_o_no_es
+
 
 def prueba():
     texto = "{FDSAasdf}"
@@ -64,6 +66,6 @@ def prueba():
     es_o_no_balanceado = auxiliar_de_prueba(texto, parentesis)
     print(f"\tEl siguiente texto:\n{texto}\n{es_o_no_balanceado}\n")
 
+
 if __name__ == "__main__":
     prueba()
-

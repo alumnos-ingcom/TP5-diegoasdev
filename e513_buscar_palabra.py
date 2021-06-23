@@ -27,7 +27,7 @@ def buscar_palabra(texto, palabra):
 class PalabraNoEncontrada(Exception):
     """Esta es la excepcion cuando no se encuentra la palabra en el texto"""
     pass
-    
+
 
 def prueba():
     texto = "Este es un texto cualquiera"
@@ -39,6 +39,6 @@ def prueba():
     ubicacion = buscar_palabra(texto, palabra)
     print(f"{texto}\n\t{palabra} se encontro en {ubicacion}")
 
+
 if __name__ == "__main__":
     prueba()
-

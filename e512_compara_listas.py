@@ -32,21 +32,21 @@ def compara_listas(lista1, lista2):
 
 def prueba():
     si_o_no = ""
-    lista1 = [1,2,3,4,4,4,4,5,6,7]
-    lista2 = [7,2,3,4,4,4,4,5,6,1]
+    lista1 = [1, 2, 3, 4, 4, 4, 4, 5, 6, 7]
+    lista2 = [7, 2, 3, 4, 4, 4, 4, 5, 6, 1]
     print(f"{lista1} y {lista2}")
     if not compara_listas(lista1, lista2):
         si_o_no = "no "
     print(f"\t{si_o_no}contienen los mismos elementos")
     si_o_no = ""
-    lista1 = [1,2,3,4,4,4,4,5,6,7]
-    lista2 = [7,2,3,4,5,6,1]
+    lista1 = [1, 2, 3, 4, 4, 4, 4, 5, 6, 7]
+    lista2 = [7, 2, 3, 4, 5, 6, 1]
     print(f"{lista1} y {lista2}")
     if not compara_listas(lista1, lista2):
         si_o_no = "no "
     print(f"\t{si_o_no}contienen los mismos elementos")
     si_o_no = ""
-    lista1 = [1,2,3,4,4,4,4,5,6,7]
+    lista1 = [1, 2, 3, 4, 4, 4, 4, 5, 6, 7]
     lista2 = [7]
     print(f"{lista1} y {lista2}")
     if not compara_listas(lista1, lista2):
@@ -56,4 +56,3 @@ def prueba():
 
 if __name__ == "__main__":
     prueba()
-

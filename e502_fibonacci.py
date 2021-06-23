@@ -15,12 +15,13 @@ def fibonacci(enesimo):
         enesimo = enesimo - 1
     return tercero
 
+
 def prueba():
     """Toda la interaccion con el usuario va aca"""
-    for enesimo in range(3,21):
+    for enesimo in range(3, 21):
         termino = fibonacci(enesimo)
         print(f"El termino numero {enesimo} de Fibonacci es {termino}")
 
+
 if __name__ == "__main__":
     prueba()
-

@@ -25,6 +25,6 @@ def prueba():
     laDistancia = distancia(primero, segundo)
     print(f"La distancia entre {primero} y {segundo} es {laDistancia}")
 
+
 if __name__ == "__main__":
     prueba()
-

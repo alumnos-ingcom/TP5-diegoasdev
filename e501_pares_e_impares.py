@@ -12,6 +12,7 @@ def es_par(entero):
     else:
         return False
 
+
 def prueba():
     """Toda la interaccion con el usuario va aca"""
     es_o_no = ""
@@ -24,6 +25,6 @@ def prueba():
         es_o_no = "no "
     print(f"El numero {numero} {es_o_no}es par")
 
+
 if __name__ == "__main__":
     prueba()
-

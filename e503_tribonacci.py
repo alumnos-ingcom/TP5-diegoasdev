@@ -17,12 +17,13 @@ def tribonacci(enesimo):
         enesimo = enesimo - 1
     return cuarto
 
+
 def prueba():
     """Toda la interaccion con el usuario va aca"""
-    for enesimo in range(4,21):
+    for enesimo in range(4, 21):
         termino = tribonacci(enesimo)
         print(f"El termino numero {enesimo} de Tribonacci es {termino}")
 
+
 if __name__ == "__main__":
     prueba()
-

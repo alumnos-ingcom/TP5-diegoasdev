@@ -10,6 +10,7 @@ def productoria(numero):
         numero = numero - 1
     return resultado
 
+
 def es_factorion(numero, factoriales):
     suma = 0
     digitos = []
@@ -23,7 +24,7 @@ def es_factorion(numero, factoriales):
 
 def factoriones_menores_a_1499999():
     factoriales = [1]
-    for orden in range(1,10):
+    for orden in range(1, 10):
         factoriales.append(productoria(orden))
 
     factoriones = []
@@ -41,6 +42,6 @@ def prueba():
         orden = orden + 1
     print("")
 
+
 if __name__ == "__main__":
     prueba()
-

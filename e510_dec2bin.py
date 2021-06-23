@@ -14,7 +14,7 @@ def dec_2_bin(natural):
         if natural % 2 == 0:
             binario = "0" + binario
         else:
-            binario = "1" + binario 
+            binario = "1" + binario
             natural = natural - 1
         natural = natural / 2
     return binario
@@ -31,7 +31,7 @@ def bin_2_dec(binario):
         tmpNatural = 1
         if digito == "1":
             while tmpDigitos > 0:
-                tmpNatural = tmpNatural * 2 
+                tmpNatural = tmpNatural * 2
                 tmpDigitos = tmpDigitos - 1
             natural = natural + tmpNatural
         digitos = digitos - 1
@@ -53,4 +53,3 @@ def prueba():
 
 if __name__ == "__main__":
     prueba()
-

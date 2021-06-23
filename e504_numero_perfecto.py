@@ -22,12 +22,13 @@ def numero_perfecto(natural):
         return True
     return False
 
+
 def prueba():
     """Toda la interaccion con el usuario va aca"""
-    for numero in range(3,10000):
+    for numero in range(3, 10000):
         if numero_perfecto(numero):
             print(f"El numero {numero} es un numero perfecto")
 
+
 if __name__ == "__main__":
     prueba()
-
