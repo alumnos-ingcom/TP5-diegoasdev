@@ -16,6 +16,7 @@ def promedio_movil(lista, cantidad):
             promedios.append(promedio)
             sumandos = 0
             orden = orden - cantidad + 1
+            promedio = 0
         promedio = promedio + lista[orden]
         sumandos = sumandos + 1
         orden = orden + 1
@@ -26,6 +27,10 @@ def promedio_movil(lista, cantidad):
 def prueba():
     lista = [1,2,3,4,5,6,7,8,9,10,11,12,13]
     cantidad = 3
+    print(f"Promedio movil de {lista} segun {cantidad} terminos")
+    print(promedio_movil(lista, cantidad))
+    lista = [1,2,3,4,5,6,7,8,9,10,11,12,13]
+    cantidad = 4
     print(f"Promedio movil de {lista} segun {cantidad} terminos")
     print(promedio_movil(lista, cantidad))
 
